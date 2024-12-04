@@ -29,7 +29,7 @@ struct LoginView: View {
                     .frame(height: 55)
                     .background(Color(textFieldBColor))
                     .cornerRadius(10)
-                TextField("password", text: $password)
+                SecureField("password", text: $password)
                     .padding(.horizontal)
                     .frame(height: 55)
                     .background(Color(textFieldBColor))
